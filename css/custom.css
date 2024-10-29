@@ -1,0 +1,126 @@
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+#popupdiv {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+img#close {
+position:absolute;
+right:-14px;
+top:-14px;
+cursor:pointer
+}
+div#popupContact {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:Arial,sans-serif
+}
+#popupContact form {
+max-width:300px;
+min-width:250px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff
+}
+#popupContact p {
+margin-top:30px
+}
+#popupContact h2 {
+background-color:#FEFFED;
+padding:20px 35px;
+margin:-10px -50px;
+text-align:center;
+border-radius:10px 10px 0 0
+}
+#popupContact hr {
+margin:10px -50px;
+border:0;
+border-top:1px solid #ccc
+}
+#popupContact input[type=text] {
+width:82%;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway
+}
+#popupContact #name {
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#popupContact textarea {
+background-repeat:no-repeat;
+background-position:5px 7px;
+width:82%;
+height:95px;
+padding:10px;
+resize:none;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+margin-bottom:30px
+}
+#popupContact #submit {
+text-decoration:none;
+width:100%;
+text-align:center;
+display:block;
+background-color:#FFBC00;
+color:#fff;
+border:1px solid #FFCB00;
+padding:10px 0;
+font-size:20px;
+cursor:pointer;
+border-radius:5px
+}
+#popupContact span {
+color:red;
+font-weight:700
+}
+#popupContact button {
+width:10%;
+height:45px;
+border-radius:3px;
+background-color:#cd853f;
+color:#fff;
+font-family:Arial,sans-serif;
+font-size:18px;
+cursor:pointer
+}
+
+.buttons .button-link.btn-cancel {
+	background: #e02d2d none repeat scroll 0 0;
+    border-color: #ce1e1e #ce1e1e #ce1e1e;
+    box-shadow: 0 1px 0 #ce1e1e;
+    color: #fff;
+    text-decoration: none;
+	border-radius: 3px;
+    border-style: solid;
+	outline:none;
+    border-width: 1px;
+    text-shadow: 0 -1px 1px #ce1e1e, 1px 0 1px #ce1e1e, 0 1px 1px #ce1e1e, -1px 0 1px #ce1e1e;}
+	.buttons .button-link.btn-cancel:hover {background: #ce1e1e none repeat scroll 0 0;}
+	.acquaintui-popup .popup-title .the-title { font-weight:600;}
+	.popup.wdev-window, .popup.wdev-slidein { height:auto !important; overflow:none;}
+	.acquaintui-popup .popup-content { position:relative; margin-bottom: 60px;}
+	.acquaintui-form input[type="text"], .acquaintui-form input[type="password"], .acquaintui-form textarea, .acquaintui-form select {
+		resize:none;
+	}
+	.dashicons-no-alt { color:#e02d2d;}
+	.dashicons-no-alt:hover { color:#ce1e1e;}
